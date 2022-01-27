@@ -13,4 +13,5 @@ def esprimo (numero: int) -> Boolean:
         return True 
         
 if __name__ == '__main__':
-    print(esprimo(6))
+    x=int(input('Ingrese un numero:'))
+    print(esprimo(x))
