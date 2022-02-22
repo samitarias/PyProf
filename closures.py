@@ -3,6 +3,8 @@
 #Ejemplo:
 #Nested functions -> Son funciones dentro de otras funciones.
 #Clousures -> Se da cuando una variable que está en un scope superior es recordada por una función que está en un scope inferior, aunque el scope superior sea eliminado.
+#Condiciones: Debe tener una nested function, nested referencia a una variable de una función superior.
+#y nested function es recordada.
 #Ejemplo:
 def main():
   a = 1
